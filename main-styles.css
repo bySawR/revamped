@@ -3,6 +3,10 @@
     margin: 0   ;
 }
 
+a {
+    cursor: pointer;
+}
+
 nav {
     display: flex;
     width: 767px;
