@@ -78,12 +78,14 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 250px 50px;
+    padding: 50px 50px;
 }
 
 .section-hero {
-    background-image: url(brand-assets/background.png);
+    background-image: url(brand-assets/background.svg);
+    object-fit: cover;
     gap: 60px;
+    padding: 280px 50px!important;
 }
 
 .button-wrapper-hero {
@@ -103,5 +105,40 @@ section {
     font-weight: 700;
     line-height: 90.24px;
     letter-spacing: 0.96px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
+
+.heading {
+    font-size: 48px;
+    font-family: "Raleway";
+    font-weight: 800;
+    color: rgba(18, 32, 16, 1);
+}
+
+    .subtitle {
+    font-size: 29.67px;
+    font-family: "Raleway";
+    font-weight: 800;
+    color: rgba(141, 205, 77, 1);
+}
+
+.image-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-50 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
