@@ -1,0 +1,104 @@
+* {
+    font-family: Raleway, sans-serif;
+    margin: 0   ;
+}
+
+nav {
+    display: flex;
+    width: 767px;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 40px 70px 0px rgba(18, 32, 16, 0.05);
+backdrop-filter: blur(20px);
+position: fixed;
+margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.nav-wrapper-outer {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    gap: 20px;  
+}
+
+
+button, .primary-button {
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #000;
+    transition: all 0.3s ease 0s;
+    background: #98EC44;
+    width: 100%;
+    box-shadow: 4px 4px 0px 0px #000;
+}
+
+.secondary-button {
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #000;
+    transition: all 0.3s ease 0s;
+    background: white;
+    width: 100%;
+    box-shadow: 4px 4px 0px 0px #000;
+}
+
+
+
+button:hover, .primary-button:hover, .secondary-button:hover {
+    box-shadow: none;
+}
+
+.button-wrapper {
+    width: 150px;   
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 50px;
+}
+
+.section-hero {
+    background-image: url(brand-assets/background.png);
+    object-fit: cover;
+    gap: 40px;
+}
+
+.button-wrapper-hero {
+    display: flex;
+    width: 30%;
+    gap: 20px;
+}
+
+.green-text {
+    color: #83CA3D;
+  }
+
+.hero {
+    font-size: 96px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: 90.24px;
+    letter-spacing: 0.96px;
+    word-wrap: break-word
+}
