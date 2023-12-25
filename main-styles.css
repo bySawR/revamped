@@ -120,6 +120,7 @@ section {
     font-family: "Raleway";
     font-weight: 800;
     color: rgba(141, 205, 77, 1);
+    font-feature-settings: 'liga' off;
 }
 
 .image-text-wrapper {
