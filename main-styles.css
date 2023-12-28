@@ -158,6 +158,7 @@ section {
     gap: 20px;
     min-height: 150px;
     justify-content: center;
+    width: calc(100% / 3);
 }
 
 .test-quote {
